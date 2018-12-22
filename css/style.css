@@ -186,3 +186,73 @@ section#banner a{
     line-height: 44px;
     border-radius: 50px;
 }
+/* footer */
+footer{
+    background: #2e2e38;
+    padding: 50px 0;
+    color: white;
+}footer h3{
+    font-family: 'olivier';
+    font-size: 52px;
+    line-height: 7.65px;
+}
+footer ul{
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+footer ul li{
+    width: 33%;
+}
+footer ul li h5{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 19.97px;
+}
+footer .rect{
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    background: #e74c3c;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+footer span.rect + span{
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+#sot span:first-of-type{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+#sot span:nth-of-type(2){
+    display: block;
+    font-family: 'hvt';
+    font-size: 11px;
+    line-height: 25.96px;
+}
+#sot p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    width: 70%;
+}
+#sot span:last-of-type{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+#about p{
+    font-family: 'hvt';
+    font-size: 15px;
+    line-height: 24px;
+    font-style: italic;
+    width: 70%;
+}
